@@ -1,0 +1,35 @@
+body{
+    background-image:url(colorful-background-4.jpg);  
+    }
+    h1{
+    color: black;    
+    background-color: cyan;
+    }
+    #show_sketch{
+    float: right;    
+    }
+    canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name:example; 
+    animation-duration: 4s; 
+    margin-top: 50px;  
+    animation-iteration-count: infinite;
+    }
+    #show_sketch{
+    background-color: violet;
+    }
+p,span{
+ padding-top: 10px;
+ font-family:ArialBlack;
+ font-size:25px;
+}
+#score{
+font-size: 35px;    
+margin-left: 20px;
+} 
+#time{
+    font-size: 35px;
+    float:right;
+    margin-right:20px;
+}
